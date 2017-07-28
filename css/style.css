@@ -19,15 +19,12 @@ display: block;
 	background-color: #fff
 	width: 100%;
 	border-bottom: 1px solid #DDD;
-	z-index: 9999;
+
 }
 .top-navigation > .content {
-	width: 970px;
+	width: 960px;
 	height: 70px;
 	margin: 0 auto;
-}
-.top-navigation .logo {
-	height: 4.375rem;
 }
 .top-navigation .links{
 	float: right;
