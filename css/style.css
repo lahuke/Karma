@@ -36,5 +36,10 @@ letter-spacing: 0.03em;
 li{
 	display: inline;	
 	padding: 8px;
+	cursor: pointer;
 
+}
+li:hover {
+	color: #4c5058;
+	transition: 0.5s;
 }
