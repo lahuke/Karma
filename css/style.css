@@ -1,9 +1,8 @@
-
-body {font-family: 'roboto', sans-serif;
-font-size: 16px
-color: #838994;
-letter-spacing: 0.03em;
--webkit-font-smoothing: antialiased;
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
 /*Navigation Section */
@@ -23,8 +22,12 @@ letter-spacing: 0.03em;
 .top-navigation .links{
 	float: right;
 	color: #838994;
-	margin-top: 1.7rem;
-	margin-bottom: -.5rem;
+	font-size: 16px;
+	margin-top: 25px;
+	margin-bottom: -.5rem; 
+	font-family: 'roboto', sans-serif;
+	letter-spacing: 0.03em;
+	-webkit-font-smoothing: antialiased;
 }
 .top-navigation .links > .active {
 	color: #4c5058;
@@ -34,7 +37,7 @@ letter-spacing: 0.03em;
 	height: 4.375rem;
 }
 li{
-	display: inline;	
+	display: inline-block;	
 	padding: 8px;
 	cursor: pointer;
 
