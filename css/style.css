@@ -1,6 +1,37 @@
-body {
-	background-color: lightgray;
+
+body {font-family: roboto, sans-serif;
 }
-div {
-	border: 1px solid chocolate; 
+li{
+	display: inline;	
+	padding: 8px;
+}
+ul {list-style: none;
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+vertical-align: baseline;
+box-sizing: border-box;
+display: block;
+}
+/*Navigation Section */
+.top-navigation {
+	background-color: #fff
+	width: 100%;
+	border-bottom: 1px solid #DDD;
+	z-index: 9999;
+}
+.top-navigation > .content {
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
+}
+.top-navigation .logo {
+	height: 4.375rem;
+}
+.top-navigation .links{
+	float: right;
+	color: #838994;
+	font-size: 1.04rem;
+	margin-top: 1.7rem;
 }
