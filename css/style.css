@@ -53,11 +53,11 @@ html {
 	background-size: cover;
 	background-repeat: none;
 	overflow: auto;
-	height: 45.938rem;
+	height: 35.938rem;
 }
 .introduction h1{
-	margin-top: 17.5rem;
-	margin-bottom: .6rem;
+	margin-top: 12.5rem;
+	margin-bottom: .1rem;
 	font-size: 3.215rem;
 }
 .introduction h1, .introduction h3{
@@ -66,7 +66,12 @@ html {
 	text-align: center;
 	font-weight: 200
 }
+
+.introduction h3{
+	font-size: 1.563rem;
+}
 button {
+    display: block;
     margin: 0 auto;
     text-shadow: none;
     border-style: none;
@@ -75,4 +80,7 @@ button {
     font-size: 1.125rem;
     background-color: #f15a29;
     color: white;
+}
+.buttons button:hover{
+	color: ;
 }
