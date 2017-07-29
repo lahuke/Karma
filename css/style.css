@@ -4,7 +4,11 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
-
+.content{
+	margin: 0 auto;
+	width: 970px;
+	font-family: 'roboto', sans-serif;
+}
 /* Navigation Section */
 .top-navigation {
 	background-color: #fff
@@ -12,9 +16,7 @@ html {
 	display: block;
 }
 .top-navigation > .content {
-	width: 970px;
 	height: 4.375rem;
-	margin: 0 auto;
 	padding: 0px 0.938rem;
 	letter-spacing: 0.03em;
 }
@@ -49,29 +51,28 @@ html {
 	background-image: url('http://i.imgur.com/YyRzVqP.jpg');
 	background-position: center bottom;
 	background-size: cover;
+	background-repeat: none;
 	overflow: auto;
 	height: 45.938rem;
 }
 .introduction h1{
 	margin-top: 17.5rem;
+	margin-bottom: .6rem;
 	font-size: 3.215rem;
 }
 .introduction h1, .introduction h3{
 	font-family: 'roboto', sans-serif;
-	letter-spacing: 0.1em;
 	color: white;
 	text-align: center;
 	font-weight: 200
 }
-.buttons {
-	width: 9.688rem;
-	background-color: #f15a29;
+button {
+    margin: 0 auto;
+    text-shadow: none;
     border-style: none;
     border-radius: 4px;
-    color: white;
     padding: 1rem 1.5rem;
     font-size: 1.125rem;
-    cursor: pointer;
-    text-align: center;
-
+    background-color: #f15a29;
+    color: white;
 }
