@@ -52,13 +52,26 @@ html {
 	overflow: auto;
 	height: 45.938rem;
 }
+.introduction h1{
+	margin-top: 17.5rem;
+	font-size: 3.215rem;
+}
 .introduction h1, .introduction h3{
 	font-family: 'roboto', sans-serif;
 	letter-spacing: 0.1em;
 	color: white;
-	margin-top: 2em;
 	text-align: center;
 	font-weight: 200
-	padding: 3em;
+}
+.buttons {
+	width: 9.688rem;
+	background-color: #f15a29;
+    border-style: none;
+    border-radius: 4px;
+    color: white;
+    padding: 1rem 1.5rem;
+    font-size: 1.125rem;
+    cursor: pointer;
+    text-align: center;
 
 }
