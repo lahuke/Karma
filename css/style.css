@@ -8,19 +8,21 @@ html {
 /* Navigation Section */
 .top-navigation {
 	background-color: #fff
+	border-bottom: 1px solid #ddd;
+	display: block;
 }
 .top-navigation > .content {
 	width: 970px;
-	height: 70px;
+	height: 4.375rem;
 	margin: 0 auto;
-	padding: 0px 15px;
+	padding: 0px 0.938rem;
 	letter-spacing: 0.03em;
 }
 .top-navigation .links{
 	float: right;
 	color: #838994;
-	font-size: 16px;
-	margin-top: 25px;
+	font-size: 1.04rem;
+	margin-top: 1.7rem;
 	font-family: 'roboto', sans-serif;
 	-webkit-font-smoothing: antialiased;
 }
@@ -36,20 +38,27 @@ html {
 	color: #333333;
 	transition: 0.5s;
 	cursor: pointer;
+	margin-top: 1.7rem;
 }
 .top-navigation .logo{
-	margin-top: 25px;
+	height: 4.375rem;
 }
 
 /* Introduction Section */
 .introduction {
 	background-image: url('http://i.imgur.com/YyRzVqP.jpg');
-	background-position: center;
+	background-position: center bottom;
 	background-size: cover;
+	overflow: auto;
+	height: 45.938rem;
 }
 .introduction h1, .introduction h3{
 	font-family: 'roboto', sans-serif;
-	letter-spacing: 0.03em;
+	letter-spacing: 0.1em;
 	color: white;
 	margin-top: 2em;
+	text-align: center;
+	font-weight: 200
+	padding: 3em;
+
 }
