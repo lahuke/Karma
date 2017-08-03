@@ -100,22 +100,38 @@ ul {
 .cases .devices {
 	 display: flex;
     justify-content: space-around;
+    margin-right: 4em;
 }
 li {
 	width: 50px
 	height: 50px;
 }
 .social {
-
+	
 }
 .social h5 {
-	font-weight: 200;
 	text-align: center;
 	list-style: none;
 }
-.icons{
-	display: inline-block;
-	list-style: none;
-	margin: 0 auto;
-	float: left;
+.icons {
+	display: flex;
+	justify-content: center;
+	margin-right: 2em;	
+
+}
+.instagram {
+	color: #3f729b;
+}
+.facebook {
+	color: #4c66a4;
+}
+.twitter {
+	color: #55acee;
+}
+.icon-background {
+	color: #eaebec;
+}
+.copyright h5{
+	font-weight: 300;
+	font-family: 'roboto', sans-serif;
 }
