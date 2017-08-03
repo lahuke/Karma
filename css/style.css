@@ -4,6 +4,7 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
 .content{
 	margin: 0 auto;
 	width: 970px;
